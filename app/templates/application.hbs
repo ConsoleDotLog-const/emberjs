@@ -1,5 +1,17 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<h1>Fun Star Wares Movie Details</h1>
+    <br>
 
-{{outlet}}
+<nav>
+    {{#link-to "movies"}}Movies{{/link-to}}
+    {{#link-to "characters"}}characters{{/link-to}}
+</nav>
+    <br>
+<p>
+    Just a fun Star wars movie details page.
+    Can read all about the individual movies in the series and also hidden gem facts about many of the chararcters.
+    May the Force Be With You!
+</p>
+
+<div class="main-content"> 
+    {{outlet}}
+</div> 
